@@ -195,25 +195,20 @@ header h1 span{
     position: relative;
 }
 
-.solution .card .abs{
-    position: absolute;
-    top: -21px;
-    left: 61px;
-    width: 193px;
-    height: 0;
-    border-bottom: 25px solid #ffd200;
-    border-left: 21px solid transparent;
-    border-right: 21px solid transparent;
+.solution .abs{
+    position: relative;
+    background-color: #ffd200;
+    width: 200px;
+    margin-top: -30px;
+    clip-path: polygon(10% 0%, 90% 0%, 100% 100%, 0% 100%);
 } 
 
-.solution .card .abs p{
-    color: #e11a27;
+.solution .abs p{
     text-align: center;
-    text-transform: uppercase;
     font-family: 'PF Agora Sans Pro';
     font-weight: bold;
     font-size: 20px;
-    margin-top: 10px;
+    color: red;
 }
 
 .solution .card h3{
